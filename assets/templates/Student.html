@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form method="post">
+        <!-- CSRF Token -->
+<!--        {% csrf_token %}-->
+
+        <!-- Input field for Full Name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <!-- Input field for Roll Number -->
+        <label for="rollnumber">Roll Number:</label>
+        <input type="number" id="rollnumber" name="rollnumber" required>
+
+        <!-- Input field for Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <!-- Input field for Date of Birth -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <!-- Input field for Email Address -->
+        <label for="mail_id">Email:</label>
+        <input type="email" id="mail_id" name="mail_id" required>
+
+        <!-- Submit button -->
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
